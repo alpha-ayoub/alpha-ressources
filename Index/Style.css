@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&family=Tilt+Warp&display=swap');
+body{
+    margin: 0px;
+    background-color: #E5E8E8;
+    width: 100%;
+}
+/*--------------------banniere---------------------*/
+.banner{
+    background-color: black;
+    height: 8%;
+    width:100%;
+    padding: 5px;
+    margin: 0;
+    position: fixed;
+    z-index: 1000;
+}
+/*--------------------Logo---------------------*/
+.logo{
+    width: 3.5%;
+    height: 80%;
+    margin: 5px;
+    background-image: url("../Images/logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display:inline-block;
+    z-index: 950;
+    border-radius: 20%;
+}
+.logo:hover{
+    box-shadow: 0px 0px 7px white;
+}
+/*--------------------Log-in---------------------*/
+.login{
+    width: 4%;
+    height: 80%;
+    margin: 5px;
+    background-image: url(../Images/login2.png);
+    background-position: center;
+    background-size: 100%;
+    position:relative;
+    left: 90%;
+    display: inline-block;
+    z-index: 950;
+}
+.login:hover{
+    background-image: url(../Images/login.png);
+    cursor: pointer;
+}
+/*--------------------Presentaion---------------------*/
+.prest{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-image: url(../Images/background.jpg);
+    background-position: 0px 55%;
+    background-size: 100%;
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+    margin: 0px;
+    z-index: 900;
+    position: relative;
+    top: 8%;
+    opacity: 0.8;
+}
+/*--------------------Titre Principale---------------------*/
+.t-1{
+    font-size: 80px;
+    font-family: 'Century gothic';
+    color: white;
+    position: relative;
+    position: relative;
+    left: 10%;
+    top: 20%;
+    z-index: 850;
+    text-shadow: 5px 1px black;
+    display: inline-block;
+}
+/*--------------------Corps de la page---------------------*/
+.countainer{
+    border-radius: 50px;
+    background-color: #F2F4F4;
+    width: 95%;
+    display: inline-block;
+    position: relative;
+    left: 2.5%;
+    z-index: 800;
+    position: relative;
+    top: 10%;
+    padding: 1.25%;
+}
+    /*--------------------Titre secondaire---------------------*/
+.t-2{
+    font-family: 'Sriracha', cursive;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 50px;
+    width: 30%;
+    position: relative;
+    left: 35%;
+    margin: 1%;
+    z-index: 750;
+    display: inline-block;
+}
+/*-----------------------Boxes---------------------*/
+#box-0{
+    display: inline-block;
+    border: 1px solid black;
+    width: 30%;
+    margin: 1.25%;
+    height: 30%;
+    border-radius: 50px;
+    opacity: 0.7;
+    background-position: center;
+    background-size: 100%;
+}
+#box-0:hover{
+    margin: 0;
+    width: 32.5%;
+    height: 32.5%;
+    opacity: 1;
+}
+/*------------Specifies-----------------*/
+.dsg-box{
+    background-image: url(../Images/d-background.jpg);
+}
+.prg-box{
+    background-image: url(../Images/p-background.jpg);
+}
+.mrk-box{
+    background-image: url(../Images/m-background.jpg);
+}
+.web-box{
+    background-image: url(../Images/w-background.jpg);
+}
+.bks-box{
+    background-image: url(../Images/b-background.jpg);
+}
+.vid-box{
+    background-image: url(../Images/v-background.jpg);
+}
+
+ /*--------------------Titres--------------------------*/
+ #t--0{
+    font-family: 'tilt Warp';
+    font-size: 50px;
+    color: white;
+    font-style: normal;
+    position: relative;
+    top: 22%;
+    text-shadow: 1px 1px black;
+    display: inline-block;
+ }
+ .t--1, .t--6{
+    position: relative;
+    left: 35%;
+ }
+ .t--2{
+    left: 30%;
+ }
+ .t--3{
+    left: 18%;
+ }
+ .t--4{
+    left: 5%;
+ }
+.t--5{
+    left: 19%;
+}
+ h3{
+    display: inline-block;
+    position: relative;
+    left: 48%;
+    margin: 0;
+ }
+ footer {
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    height: 3%;
+    display: inline-block;
+    z-index: 5;
+ }
+ h4{
+    position: relative;
+    left: 48%;
+    color: white;
+    font-family: 'century gothic';
+    display: inline-block;
+    z-index: 10;
+    margin: 0;
+ }
